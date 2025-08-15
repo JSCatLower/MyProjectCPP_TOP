@@ -1,0 +1,29 @@
+# Билд-папки
+build/
+out/
+bin/
+x64/
+
+# Сгенерированные CMake файлы
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Объектные файлы и бинарники
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+
+# Логи и временные файлы
+*.log
+*.tmp
