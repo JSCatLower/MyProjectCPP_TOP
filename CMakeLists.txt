@@ -11,6 +11,12 @@ set(SOURCES
 # Создаём один бинарник
 add_executable(cpp_top ${SOURCES})
 
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")  # Проверяем компилятор
+    # Включаем санитайзеры в Debug-режиме
+    set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer")
+    set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -fsanitize=undefined -fsanitize=address -fno-omit-frame-pointer")
+endif()
+
 target_include_directories(cpp_top PRIVATE include/)
 
 # Опционально: стандарт C++ (например, C++17)
