@@ -20,4 +20,4 @@ endif()
 target_include_directories(cpp_top PRIVATE include/)
 
 # Опционально: стандарт C++ (например, C++17)
-target_compile_features(cpp_top PRIVATE cxx_std_20)
+target_compile_features(cpp_top PRIVATE cxx_std_23)
