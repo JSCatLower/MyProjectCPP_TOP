@@ -5,6 +5,7 @@ project(Cpp_is_not_UB)
 set(SOURCES
     src/main.cpp
     src/utils/math.cpp
+    src/utils/cat.cpp
 )
 
 # Создаём один бинарник
