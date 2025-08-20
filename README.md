@@ -17,3 +17,13 @@ cmake ..
 make
 ./cpp_top
 ```
+## 📦 Установка стабильной версии
+Если вы хотите собрать конкретную версию проекта (например, релиз `v0.0.1`), выполните:
+
+```bash
+git clone https://github.com/JSCatLower/MyProjectCPP_TOP.git
+cd MyProjectCPP_TOP
+git checkout v0.0.1  # Переключение на версию v0.0.1
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j4
