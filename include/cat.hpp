@@ -4,8 +4,9 @@
 
 class Cat {
 public:
-    Cat(const std::string& name);               // Конструктор
+    Cat(const std::string& name, int age);               // Конструктор
     void meow() const;   // Метод
 private:
     std::string name; // Поле класса
+    int age;
 };

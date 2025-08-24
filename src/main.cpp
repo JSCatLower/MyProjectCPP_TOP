@@ -10,6 +10,6 @@ int main() {
   std::print("10² = {} \n", square(10));
   std::print("5³ = {} \n", power(5, 3));
   std::print("Раз раз..😌🐱\n");
-  Cat sigma("sigma😎");
+  Cat sigma("sigma😎", 2);
   sigma.meow();
 }
