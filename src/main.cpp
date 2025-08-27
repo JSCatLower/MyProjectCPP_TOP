@@ -11,5 +11,7 @@ int main() {
   std::print("5³ = {} \n", power(5, 3));
   std::print("Раз раз..😌🐱\n");
   Cat sigma("sigma😎", 2);
+  Cat::GetCat();
   sigma.meow();
+  return 0;
 }
