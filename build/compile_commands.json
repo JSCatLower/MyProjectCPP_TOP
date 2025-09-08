@@ -1,0 +1,8 @@
+[
+{
+  "directory": "E:/yarik_projects/cpp_top/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang++.exe -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview @CMakeFiles\\cpp_top.dir\\src\\main.cpp.obj.modmap -o CMakeFiles\\cpp_top.dir\\src\\main.cpp.obj -c E:\\yarik_projects\\cpp_top\\src\\main.cpp",
+  "file": "E:/yarik_projects/cpp_top/src/main.cpp",
+  "output": "E:/yarik_projects/cpp_top/build/CMakeFiles/cpp_top.dir/src/main.cpp.obj"
+}
+]

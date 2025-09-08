@@ -1,0 +1,27 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "MSVC",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "E:/yarik_projects/cpp_top/build",
+	"dir-cur-src" : "E:/yarik_projects/cpp_top",
+	"dir-top-bld" : "E:/yarik_projects/cpp_top/build",
+	"dir-top-src" : "E:/yarik_projects/cpp_top",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "E:/yarik_projects/cpp_top/build/CMakeFiles/cpp_top.dir",
+	"sources" : 
+	{
+		"CMakeFiles/cpp_top.dir/src/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/yarik_projects/cpp_top/src/main.cpp"
+		}
+	}
+}
