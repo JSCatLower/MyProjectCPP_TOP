@@ -5,14 +5,658 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Tools\\bin\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.14.19+164abd434 для .NET Framework
+      Сборка начата 09.09.2025 17:22:49.
+      
+      Проект "E:\\yarik_projects\\cpp_top\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\yarik_projects\\cpp_top\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "E:\\yarik_projects\\cpp_top\\build\\CMakeFiles\\4.1.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:14.02
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/yarik_projects/cpp_top/build/CMakeFiles/4.1.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Tools\\bin\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/lld-link.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/lld-link.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/lld-link"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.com"
+      - "C:/Program Files/Git/mingw64/bin/lld-link.exe"
+      - "C:/Program Files/Git/mingw64/bin/lld-link"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/local/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/local/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/lld-link"
+      - "C:/Tools/bin/lld-link.com"
+      - "C:/Tools/bin/lld-link.exe"
+      - "C:/Tools/bin/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/lld-link"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Tools\\bin\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Tools\\bin\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/mt.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/mt.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/mt"
+      - "C:/Program Files/Git/mingw64/bin/mt.com"
+      - "C:/Program Files/Git/mingw64/bin/mt.exe"
+      - "C:/Program Files/Git/mingw64/bin/mt"
+      - "C:/Program Files/Git/usr/local/bin/mt.com"
+      - "C:/Program Files/Git/usr/local/bin/mt.exe"
+      - "C:/Program Files/Git/usr/local/bin/mt"
+      - "C:/Program Files/Git/usr/bin/mt.com"
+      - "C:/Program Files/Git/usr/bin/mt.exe"
+      - "C:/Program Files/Git/usr/bin/mt"
+      - "C:/Tools/bin/mt.com"
+      - "C:/Tools/bin/mt.exe"
+      - "C:/Tools/bin/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/mt"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Tools\\bin\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+    searched_directories:
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Tools\\bin\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:574 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/"
+      - "C:/Program Files/Git/mingw64/bin/"
+      - "C:/Program Files/Git/usr/local/bin/"
+      - "C:/Program Files/Git/usr/bin/"
+      - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/"
+      - "C:/Program Files/Git/usr/bin/core_perl/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/Cpp_top/bin/"
+      - "C:/Program Files (x86)/Cpp_top/sbin/"
+      - "C:/Program Files (x86)/Cpp_top/"
+    searched_directories:
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/rc.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/rc.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/bin/rc"
+      - "C:/Program Files/Git/mingw64/bin/rc.com"
+      - "C:/Program Files/Git/mingw64/bin/rc.exe"
+      - "C:/Program Files/Git/mingw64/bin/rc"
+      - "C:/Program Files/Git/usr/local/bin/rc.com"
+      - "C:/Program Files/Git/usr/local/bin/rc.exe"
+      - "C:/Program Files/Git/usr/local/bin/rc"
+      - "C:/Program Files/Git/usr/bin/rc.com"
+      - "C:/Program Files/Git/usr/bin/rc.exe"
+      - "C:/Program Files/Git/usr/bin/rc"
+      - "C:/Tools/bin/rc.com"
+      - "C:/Tools/bin/rc.exe"
+      - "C:/Tools/bin/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/vendor_perl/rc"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.com"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc.exe"
+      - "C:/Program Files/Git/usr/bin/core_perl/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/Cpp_top/bin/rc.com"
+      - "C:/Program Files (x86)/Cpp_top/bin/rc.exe"
+      - "C:/Program Files (x86)/Cpp_top/bin/rc"
+      - "C:/Program Files (x86)/Cpp_top/sbin/rc.com"
+      - "C:/Program Files (x86)/Cpp_top/sbin/rc.exe"
+      - "C:/Program Files (x86)/Cpp_top/sbin/rc"
+      - "C:/Program Files (x86)/Cpp_top/rc.com"
+      - "C:/Program Files (x86)/Cpp_top/rc.exe"
+      - "C:/Program Files (x86)/Cpp_top/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\local\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Program Files\\Git\\mingw64\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\bin"
+        - "C:\\Tools\\bin\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Git\\usr\\bin\\vendor_perl"
+        - "C:\\Program Files\\Git\\usr\\bin\\core_perl"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cpp_top"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Cpp_top"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-fkvz0e"
+      binary: "E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-fkvz0e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-fkvz0e'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8de47.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.14.19+164abd434 ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 09.09.2025 17:23:04.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "E:\\yarik_projects\\cpp_top\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkvz0e\\cmTC_8de47.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_8de47.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "E:\\yarik_projects\\cpp_top\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkvz0e\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_8de47.dir\\Debug\\cmTC_8de47.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_8de47.dir\\Debug\\cmTC_8de47.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_8de47.dir\\Debug\\cmTC_8de47.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8de47.dir\\Debug\\\\" /Fd"cmTC_8de47.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.44.35215 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_8de47.dir\\Debug\\\\" /Fd"cmTC_8de47.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\yarik_projects\\cpp_top\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkvz0e\\Debug\\cmTC_8de47.exe" /INCREMENTAL /ILK:"cmTC_8de47.dir\\Debug\\cmTC_8de47.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-fkvz0e/Debug/cmTC_8de47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-fkvz0e/Debug/cmTC_8de47.lib" /MACHINE:X64 cmTC_8de47.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8de47.vcxproj -> E:\\yarik_projects\\cpp_top\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkvz0e\\Debug\\cmTC_8de47.exe
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_8de47.dir\\Debug\\cmTC_8de47.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_8de47.dir\\Debug\\cmTC_8de47.tlog\\cmTC_8de47.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "E:\\yarik_projects\\cpp_top\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fkvz0e\\cmTC_8de47.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35215.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:4 (project)"
     message: |
       The system is: Windows - 10.0.19045 - AMD64
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Program used to build from build.ninja files."
@@ -31,6 +675,7 @@ events:
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
@@ -51,7 +696,8 @@ events:
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -59,7 +705,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_WITH_PATH"
     description: "Path to a program."
@@ -72,19 +718,30 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "clang++"
+      - "cl.exe"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/clang++.com"
-    found: "C:/Program Files/LLVM/bin/clang++.exe"
+      - "C:/Program Files/LLVM/bin/cl.exe.com"
+      - "C:/Program Files/LLVM/bin/cl.exe"
+      - "C:/Tools/bin/cl.exe.com"
+      - "C:/Tools/bin/cl.exe"
+      - "C:/Program Files/CMake/bin/cl.exe.com"
+      - "C:/Program Files/CMake/bin/cl.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/cl.exe.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/cl.exe.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/cl.exe"
+    found: false
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -95,7 +752,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -115,7 +772,8 @@ events:
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -124,48 +782,580 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
       Build flags: 
       Id flags:  
       
       The output was:
-      0
+      no such file or directory
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags: -c 
       
-      The CXX compiler identification is Clang, found in:
-        E:/yarik_projects/cpp_top/build/CMakeFiles/4.1.1/CompilerIdCXX/a.exe
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\LLVM\\bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
-      Detecting CXX compiler /showIncludes prefix:
-        
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:86 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     message: |
-      Detecting CXX compiler /showIncludes prefix:
-        
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -178,20 +1368,35 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-ar"
       - "ar"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-ar.com"
-    found: "C:/Program Files/LLVM/bin/llvm-ar.exe"
+      - "C:/Program Files/LLVM/bin/ar.com"
+      - "C:/Program Files/LLVM/bin/ar.exe"
+      - "C:/Program Files/LLVM/bin/ar"
+      - "C:/Tools/bin/ar.com"
+      - "C:/Tools/bin/ar.exe"
+      - "C:/Tools/bin/ar"
+      - "C:/Program Files/CMake/bin/ar.com"
+      - "C:/Program Files/CMake/bin/ar.exe"
+      - "C:/Program Files/CMake/bin/ar"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/ar.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/ar.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/ar"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/ar.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/ar.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/ar"
+    found: false
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -199,7 +1404,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -212,20 +1417,35 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-ranlib"
       - "ranlib"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-ranlib.com"
-    found: "C:/Program Files/LLVM/bin/llvm-ranlib.exe"
+      - "C:/Program Files/LLVM/bin/ranlib.com"
+      - "C:/Program Files/LLVM/bin/ranlib.exe"
+      - "C:/Program Files/LLVM/bin/ranlib"
+      - "C:/Tools/bin/ranlib.com"
+      - "C:/Tools/bin/ranlib.exe"
+      - "C:/Tools/bin/ranlib"
+      - "C:/Program Files/CMake/bin/ranlib.com"
+      - "C:/Program Files/CMake/bin/ranlib.exe"
+      - "C:/Program Files/CMake/bin/ranlib"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/ranlib.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/ranlib.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/ranlib"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/ranlib.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/ranlib.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/ranlib"
+    found: false
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -233,7 +1453,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -246,20 +1466,35 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-strip"
       - "strip"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-strip.com"
-    found: "C:/Program Files/LLVM/bin/llvm-strip.exe"
+      - "C:/Program Files/LLVM/bin/strip.com"
+      - "C:/Program Files/LLVM/bin/strip.exe"
+      - "C:/Program Files/LLVM/bin/strip"
+      - "C:/Tools/bin/strip.com"
+      - "C:/Tools/bin/strip.exe"
+      - "C:/Tools/bin/strip"
+      - "C:/Program Files/CMake/bin/strip.com"
+      - "C:/Program Files/CMake/bin/strip.exe"
+      - "C:/Program Files/CMake/bin/strip"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/strip.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/strip.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/strip"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/strip.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/strip.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/strip"
+    found: false
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -267,7 +1502,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -280,20 +1515,35 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "lld-link"
       - "ld"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/lld-link.com"
-    found: "C:/Program Files/LLVM/bin/lld-link.exe"
+      - "C:/Program Files/LLVM/bin/ld.com"
+      - "C:/Program Files/LLVM/bin/ld.exe"
+      - "C:/Program Files/LLVM/bin/ld"
+      - "C:/Tools/bin/ld.com"
+      - "C:/Tools/bin/ld.exe"
+      - "C:/Tools/bin/ld"
+      - "C:/Program Files/CMake/bin/ld.com"
+      - "C:/Program Files/CMake/bin/ld.exe"
+      - "C:/Program Files/CMake/bin/ld"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/ld.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/ld.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/ld"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/ld.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/ld.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/ld"
+    found: false
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -301,7 +1551,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -314,20 +1564,35 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-nm"
       - "nm"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-nm.com"
-    found: "C:/Program Files/LLVM/bin/llvm-nm.exe"
+      - "C:/Program Files/LLVM/bin/nm.com"
+      - "C:/Program Files/LLVM/bin/nm.exe"
+      - "C:/Program Files/LLVM/bin/nm"
+      - "C:/Tools/bin/nm.com"
+      - "C:/Tools/bin/nm.exe"
+      - "C:/Tools/bin/nm"
+      - "C:/Program Files/CMake/bin/nm.com"
+      - "C:/Program Files/CMake/bin/nm.exe"
+      - "C:/Program Files/CMake/bin/nm"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/nm.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/nm.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/nm"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/nm.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/nm.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/nm"
+    found: false
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -335,7 +1600,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -348,20 +1613,35 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-objdump"
       - "objdump"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-objdump.com"
-    found: "C:/Program Files/LLVM/bin/llvm-objdump.exe"
+      - "C:/Program Files/LLVM/bin/objdump.com"
+      - "C:/Program Files/LLVM/bin/objdump.exe"
+      - "C:/Program Files/LLVM/bin/objdump"
+      - "C:/Tools/bin/objdump.com"
+      - "C:/Tools/bin/objdump.exe"
+      - "C:/Tools/bin/objdump"
+      - "C:/Program Files/CMake/bin/objdump.com"
+      - "C:/Program Files/CMake/bin/objdump.exe"
+      - "C:/Program Files/CMake/bin/objdump"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/objdump.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/objdump.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/objdump"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/objdump.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/objdump.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/objdump"
+    found: false
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -369,7 +1649,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -382,20 +1662,35 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-objcopy"
       - "objcopy"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-objcopy.com"
-    found: "C:/Program Files/LLVM/bin/llvm-objcopy.exe"
+      - "C:/Program Files/LLVM/bin/objcopy.com"
+      - "C:/Program Files/LLVM/bin/objcopy.exe"
+      - "C:/Program Files/LLVM/bin/objcopy"
+      - "C:/Tools/bin/objcopy.com"
+      - "C:/Tools/bin/objcopy.exe"
+      - "C:/Tools/bin/objcopy"
+      - "C:/Program Files/CMake/bin/objcopy.com"
+      - "C:/Program Files/CMake/bin/objcopy.exe"
+      - "C:/Program Files/CMake/bin/objcopy"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/objcopy.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/objcopy.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/objcopy"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/objcopy.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/objcopy.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/objcopy"
+    found: false
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -403,7 +1698,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -416,32 +1711,23 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-readelf"
       - "readelf"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-readelf.com"
-      - "C:/Program Files/LLVM/bin/llvm-readelf.exe"
-      - "C:/Program Files/LLVM/bin/llvm-readelf"
-      - "C:/Tools/bin/llvm-readelf.com"
-      - "C:/Tools/bin/llvm-readelf.exe"
-      - "C:/Tools/bin/llvm-readelf"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-readelf.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-readelf.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-readelf"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-readelf.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-readelf.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-readelf"
       - "C:/Program Files/LLVM/bin/readelf.com"
       - "C:/Program Files/LLVM/bin/readelf.exe"
       - "C:/Program Files/LLVM/bin/readelf"
       - "C:/Tools/bin/readelf.com"
       - "C:/Tools/bin/readelf.exe"
       - "C:/Tools/bin/readelf"
+      - "C:/Program Files/CMake/bin/readelf.com"
+      - "C:/Program Files/CMake/bin/readelf.exe"
+      - "C:/Program Files/CMake/bin/readelf"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/readelf.com"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/readelf.exe"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/readelf"
@@ -452,7 +1738,8 @@ events:
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -460,7 +1747,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -473,20 +1760,35 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-dlltool"
       - "dlltool"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-dlltool.com"
-    found: "C:/Program Files/LLVM/bin/llvm-dlltool.exe"
+      - "C:/Program Files/LLVM/bin/dlltool.com"
+      - "C:/Program Files/LLVM/bin/dlltool.exe"
+      - "C:/Program Files/LLVM/bin/dlltool"
+      - "C:/Tools/bin/dlltool.com"
+      - "C:/Tools/bin/dlltool.exe"
+      - "C:/Tools/bin/dlltool"
+      - "C:/Program Files/CMake/bin/dlltool.com"
+      - "C:/Program Files/CMake/bin/dlltool.exe"
+      - "C:/Program Files/CMake/bin/dlltool"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/dlltool.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/dlltool.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/dlltool"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/dlltool.com"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/dlltool.exe"
+      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/dlltool"
+    found: false
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -494,7 +1796,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -507,32 +1809,23 @@ events:
       CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
       CMAKE_FIND_USE_INSTALL_PREFIX: true
     names:
-      - "llvm-addr2line"
       - "addr2line"
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-addr2line.com"
-      - "C:/Program Files/LLVM/bin/llvm-addr2line.exe"
-      - "C:/Program Files/LLVM/bin/llvm-addr2line"
-      - "C:/Tools/bin/llvm-addr2line.com"
-      - "C:/Tools/bin/llvm-addr2line.exe"
-      - "C:/Tools/bin/llvm-addr2line"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-addr2line.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-addr2line.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-addr2line"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-addr2line.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-addr2line.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-addr2line"
       - "C:/Program Files/LLVM/bin/addr2line.com"
       - "C:/Program Files/LLVM/bin/addr2line.exe"
       - "C:/Program Files/LLVM/bin/addr2line"
       - "C:/Tools/bin/addr2line.com"
       - "C:/Tools/bin/addr2line.exe"
       - "C:/Tools/bin/addr2line"
+      - "C:/Program Files/CMake/bin/addr2line.com"
+      - "C:/Program Files/CMake/bin/addr2line.exe"
+      - "C:/Program Files/CMake/bin/addr2line"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/addr2line.com"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/addr2line.exe"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/addr2line"
@@ -543,7 +1836,8 @@ events:
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
   -
@@ -551,7 +1845,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:5 (project)"
+      - "CMakeLists.txt:4 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -568,6 +1862,7 @@ events:
     candidate_directories:
       - "C:/Program Files/LLVM/bin/"
       - "C:/Tools/bin/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
     searched_directories:
@@ -577,6 +1872,9 @@ events:
       - "C:/Tools/bin/tapi.com"
       - "C:/Tools/bin/tapi.exe"
       - "C:/Tools/bin/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/tapi.com"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/tapi.exe"
       - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/tapi"
@@ -587,726 +1885,8 @@ events:
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
+        - "C:/Tools/bin/"
+        - "C:/Program Files/CMake/bin"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER_AR"
-    description: "LLVM archiver"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-ar-21.1"
-      - "llvm-ar-21"
-      - "llvm-ar21"
-      - "llvm-ar"
-    candidate_directories:
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/Tools/bin/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
-    searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-ar-21.1.com"
-      - "C:/Program Files/LLVM/bin/llvm-ar-21.1.exe"
-      - "C:/Program Files/LLVM/bin/llvm-ar-21.1"
-      - "C:/Tools/bin/llvm-ar-21.1.com"
-      - "C:/Tools/bin/llvm-ar-21.1.exe"
-      - "C:/Tools/bin/llvm-ar-21.1"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.1"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar-21.1.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar-21.1.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar-21.1"
-      - "C:/Program Files/LLVM/bin/llvm-ar-21.com"
-      - "C:/Program Files/LLVM/bin/llvm-ar-21.exe"
-      - "C:/Program Files/LLVM/bin/llvm-ar-21"
-      - "C:/Tools/bin/llvm-ar-21.com"
-      - "C:/Tools/bin/llvm-ar-21.exe"
-      - "C:/Tools/bin/llvm-ar-21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ar-21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ar-21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar-21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar-21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar-21"
-      - "C:/Program Files/LLVM/bin/llvm-ar21.com"
-      - "C:/Program Files/LLVM/bin/llvm-ar21.exe"
-      - "C:/Program Files/LLVM/bin/llvm-ar21"
-      - "C:/Tools/bin/llvm-ar21.com"
-      - "C:/Tools/bin/llvm-ar21.exe"
-      - "C:/Tools/bin/llvm-ar21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ar21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ar21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ar21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ar21"
-      - "C:/Program Files/LLVM/bin/llvm-ar.com"
-    found: "C:/Program Files/LLVM/bin/llvm-ar.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER_RANLIB"
-    description: "Generate index for LLVM archive"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-ranlib-21.1"
-      - "llvm-ranlib-21"
-      - "llvm-ranlib21"
-      - "llvm-ranlib"
-    candidate_directories:
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/Tools/bin/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
-    searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.1.com"
-      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.1.exe"
-      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.1"
-      - "C:/Tools/bin/llvm-ranlib-21.1.com"
-      - "C:/Tools/bin/llvm-ranlib-21.1.exe"
-      - "C:/Tools/bin/llvm-ranlib-21.1"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.1"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib-21.1.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib-21.1.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib-21.1"
-      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.com"
-      - "C:/Program Files/LLVM/bin/llvm-ranlib-21.exe"
-      - "C:/Program Files/LLVM/bin/llvm-ranlib-21"
-      - "C:/Tools/bin/llvm-ranlib-21.com"
-      - "C:/Tools/bin/llvm-ranlib-21.exe"
-      - "C:/Tools/bin/llvm-ranlib-21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ranlib-21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib-21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib-21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib-21"
-      - "C:/Program Files/LLVM/bin/llvm-ranlib21.com"
-      - "C:/Program Files/LLVM/bin/llvm-ranlib21.exe"
-      - "C:/Program Files/LLVM/bin/llvm-ranlib21"
-      - "C:/Tools/bin/llvm-ranlib21.com"
-      - "C:/Tools/bin/llvm-ranlib21.exe"
-      - "C:/Tools/bin/llvm-ranlib21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/llvm-ranlib21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/llvm-ranlib21"
-      - "C:/Program Files/LLVM/bin/llvm-ranlib.com"
-    found: "C:/Program Files/LLVM/bin/llvm-ranlib.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
-    description: "`clang-scan-deps` dependency scanner"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: false
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "clang-scan-deps-21.1"
-      - "clang-scan-deps-21"
-      - "clang-scan-deps21"
-      - "clang-scan-deps"
-    candidate_directories:
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/Tools/bin/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
-    searched_directories:
-      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.1.com"
-      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.1.exe"
-      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.1"
-      - "C:/Tools/bin/clang-scan-deps-21.1.com"
-      - "C:/Tools/bin/clang-scan-deps-21.1.exe"
-      - "C:/Tools/bin/clang-scan-deps-21.1"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.1"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/clang-scan-deps-21.1.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/clang-scan-deps-21.1.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/clang-scan-deps-21.1"
-      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.com"
-      - "C:/Program Files/LLVM/bin/clang-scan-deps-21.exe"
-      - "C:/Program Files/LLVM/bin/clang-scan-deps-21"
-      - "C:/Tools/bin/clang-scan-deps-21.com"
-      - "C:/Tools/bin/clang-scan-deps-21.exe"
-      - "C:/Tools/bin/clang-scan-deps-21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/clang-scan-deps-21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/clang-scan-deps-21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/clang-scan-deps-21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/clang-scan-deps-21"
-      - "C:/Program Files/LLVM/bin/clang-scan-deps21.com"
-      - "C:/Program Files/LLVM/bin/clang-scan-deps21.exe"
-      - "C:/Program Files/LLVM/bin/clang-scan-deps21"
-      - "C:/Tools/bin/clang-scan-deps21.com"
-      - "C:/Tools/bin/clang-scan-deps21.exe"
-      - "C:/Tools/bin/clang-scan-deps21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/clang-scan-deps21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/clang-scan-deps21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/clang-scan-deps21"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/clang-scan-deps21.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/clang-scan-deps21.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/clang-scan-deps21"
-      - "C:/Program Files/LLVM/bin/clang-scan-deps.com"
-    found: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang.cmake:201 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang-CXX.cmake:1 (include)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "__RC_COMPILER_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "rc"
-    candidate_directories:
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/Tools/bin/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/Cpp_top/bin/"
-      - "C:/Program Files (x86)/Cpp_top/sbin/"
-      - "C:/Program Files (x86)/Cpp_top/"
-    searched_directories:
-      - "C:/Program Files/LLVM/bin/rc.com"
-      - "C:/Program Files/LLVM/bin/rc.exe"
-      - "C:/Program Files/LLVM/bin/rc"
-      - "C:/Tools/bin/rc.com"
-      - "C:/Tools/bin/rc.exe"
-      - "C:/Tools/bin/rc"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/rc"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc"
-      - "C:/Program Files/bin/rc.com"
-      - "C:/Program Files/bin/rc.exe"
-      - "C:/Program Files/bin/rc"
-      - "C:/Program Files/sbin/rc.com"
-      - "C:/Program Files/sbin/rc.exe"
-      - "C:/Program Files/sbin/rc"
-      - "C:/Program Files/rc.com"
-      - "C:/Program Files/rc.exe"
-      - "C:/Program Files/rc"
-      - "C:/Program Files (x86)/bin/rc.com"
-      - "C:/Program Files (x86)/bin/rc.exe"
-      - "C:/Program Files (x86)/bin/rc"
-      - "C:/Program Files (x86)/sbin/rc.com"
-      - "C:/Program Files (x86)/sbin/rc.exe"
-      - "C:/Program Files (x86)/sbin/rc"
-      - "C:/Program Files (x86)/rc.com"
-      - "C:/Program Files (x86)/rc.exe"
-      - "C:/Program Files (x86)/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
-      - "C:/Program Files/CMake/sbin/rc.com"
-      - "C:/Program Files/CMake/sbin/rc.exe"
-      - "C:/Program Files/CMake/sbin/rc"
-      - "C:/Program Files/CMake/rc.com"
-      - "C:/Program Files/CMake/rc.exe"
-      - "C:/Program Files/CMake/rc"
-      - "C:/Program Files (x86)/Cpp_top/bin/rc.com"
-      - "C:/Program Files (x86)/Cpp_top/bin/rc.exe"
-      - "C:/Program Files (x86)/Cpp_top/bin/rc"
-      - "C:/Program Files (x86)/Cpp_top/sbin/rc.com"
-      - "C:/Program Files (x86)/Cpp_top/sbin/rc.exe"
-      - "C:/Program Files (x86)/Cpp_top/sbin/rc"
-      - "C:/Program Files (x86)/Cpp_top/rc.com"
-      - "C:/Program Files (x86)/Cpp_top/rc.exe"
-      - "C:/Program Files (x86)/Cpp_top/rc"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cpp_top"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Cpp_top"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang.cmake:207 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang-CXX.cmake:1 (include)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "__RC_COMPILER_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-rc"
-    candidate_directories:
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/Tools/bin/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/Cpp_top/bin/"
-      - "C:/Program Files (x86)/Cpp_top/sbin/"
-      - "C:/Program Files (x86)/Cpp_top/"
-    searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-rc.com"
-    found: "C:/Program Files/LLVM/bin/llvm-rc.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cpp_top"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Cpp_top"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang.cmake:146 (enable_language)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang.cmake:262 (__windows_compiler_clang_gnu)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang.cmake:282 (__windows_compiler_clang_base)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang-CXX.cmake:3 (__windows_compiler_clang)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "CMAKE_RC_COMPILER"
-    description: "RC compiler"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-rc"
-    candidate_directories:
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/Tools/bin/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/Cpp_top/bin/"
-      - "C:/Program Files (x86)/Cpp_top/sbin/"
-      - "C:/Program Files (x86)/Cpp_top/"
-    searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-rc.com"
-    found: "C:/Program Files/LLVM/bin/llvm-rc.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cpp_top"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Cpp_top"
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    checks:
-      - "Detecting CXX compiler ABI info"
-    directories:
-      source: "E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-snh4n1"
-      binary: "E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-snh4n1"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-O0"
-      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-snh4n1'
-        
-        Run Build Command(s): C:/Tools/bin/ninja.exe -v cmTC_8d9c2
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang++.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_8d9c2.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_8d9c2.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_8d9c2.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -v -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_8d9c2.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_8d9c2.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_8d9c2.lib -Xlinker /pdb:cmTC_8d9c2.pdb -Xlinker /version:0.0     && cd ."
-        clang version 21.1.0
-        Target: x86_64-pc-windows-msvc
-        Thread model: posix
-        InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_8d9c2.exe "-libpath:C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\2022\\\\BuildTools\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\2022\\\\BuildTools\\\\VC\\\\Tools\\\\MSVC\\\\14.44.35207\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.26100.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\21\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_8d9c2.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_8d9c2.lib /pdb:cmTC_8d9c2.pdb /version:0.0
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/Program Files/LLVM/bin/lld-link
-        implicit libs: []
-        implicit objs: []
-        implicit dirs: []
-        implicit fwks: []
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Running the CXX compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-v"
-      lld-link: warning: ignoring unknown argument '-v'
-      lld-link: error: no input files
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Running the CXX compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-V"
-      lld-link: warning: ignoring unknown argument '-V'
-      lld-link: error: no input files
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Running the CXX compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "--version"
-      LLD 21.1.0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake:87 (_record_compiler_features)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake:124 (_record_compiler_features_cxx)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake:70 (cmake_record_cxx_compile_features)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILER_SUPPORT)"
-      - "CMakeLists.txt:5 (project)"
-    checks:
-      - "Detecting CXX compile features"
-    directories:
-      source: "E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-bsuv2u"
-      binary: "E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-bsuv2u"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-O0"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_CXX_FEATURE_TEST"
-      cached: true
-      stdout: |
-        Change Dir: 'E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-bsuv2u'
-        
-        Run Build Command(s): C:/Tools/bin/ninja.exe -v cmTC_8556c
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang++.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_8556c.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_8556c.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_8556c.dir/feature_tests.cxx.obj -c E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-bsuv2u/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_8556c.dir/feature_tests.cxx.obj -o cmTC_8556c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_8556c.lib -Xlinker /pdb:cmTC_8556c.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake:87 (_record_compiler_features)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake:132 (_record_compiler_features_cxx)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake:70 (cmake_record_cxx_compile_features)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILER_SUPPORT)"
-      - "CMakeLists.txt:5 (project)"
-    checks:
-      - "Detecting CXX compile features"
-    directories:
-      source: "E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-2m33q5"
-      binary: "E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-2m33q5"
-    cmakeVariables:
-      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-O0"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_CXX_FEATURE_TEST"
-      cached: true
-      stdout: |
-        Change Dir: 'E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-2m33q5'
-        
-        Run Build Command(s): C:/Tools/bin/ninja.exe -v cmTC_066de
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang++.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_066de.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_066de.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_066de.dir/feature_tests.cxx.obj -c E:/yarik_projects/cpp_top/build/CMakeFiles/CMakeScratch/TryCompile-2m33q5/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang++.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console -fuse-ld=lld-link CMakeFiles/cmTC_066de.dir/feature_tests.cxx.obj -o cmTC_066de.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_066de.lib -Xlinker /pdb:cmTC_066de.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang.cmake:201 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang-CXX.cmake:1 (include)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "__RC_COMPILER_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "rc"
-    candidate_directories:
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/Tools/bin/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/Cpp_top/bin/"
-      - "C:/Program Files (x86)/Cpp_top/sbin/"
-      - "C:/Program Files (x86)/Cpp_top/"
-    searched_directories:
-      - "C:/Program Files/LLVM/bin/rc.com"
-      - "C:/Program Files/LLVM/bin/rc.exe"
-      - "C:/Program Files/LLVM/bin/rc"
-      - "C:/Tools/bin/rc.com"
-      - "C:/Tools/bin/rc.exe"
-      - "C:/Tools/bin/rc"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/rc.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/rc.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/rc"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/rc"
-      - "C:/Program Files/bin/rc.com"
-      - "C:/Program Files/bin/rc.exe"
-      - "C:/Program Files/bin/rc"
-      - "C:/Program Files/sbin/rc.com"
-      - "C:/Program Files/sbin/rc.exe"
-      - "C:/Program Files/sbin/rc"
-      - "C:/Program Files/rc.com"
-      - "C:/Program Files/rc.exe"
-      - "C:/Program Files/rc"
-      - "C:/Program Files (x86)/bin/rc.com"
-      - "C:/Program Files (x86)/bin/rc.exe"
-      - "C:/Program Files (x86)/bin/rc"
-      - "C:/Program Files (x86)/sbin/rc.com"
-      - "C:/Program Files (x86)/sbin/rc.exe"
-      - "C:/Program Files (x86)/sbin/rc"
-      - "C:/Program Files (x86)/rc.com"
-      - "C:/Program Files (x86)/rc.exe"
-      - "C:/Program Files (x86)/rc"
-      - "C:/Program Files/CMake/bin/rc.com"
-      - "C:/Program Files/CMake/bin/rc.exe"
-      - "C:/Program Files/CMake/bin/rc"
-      - "C:/Program Files/CMake/sbin/rc.com"
-      - "C:/Program Files/CMake/sbin/rc.exe"
-      - "C:/Program Files/CMake/sbin/rc"
-      - "C:/Program Files/CMake/rc.com"
-      - "C:/Program Files/CMake/rc.exe"
-      - "C:/Program Files/CMake/rc"
-      - "C:/Program Files (x86)/Cpp_top/bin/rc.com"
-      - "C:/Program Files (x86)/Cpp_top/bin/rc.exe"
-      - "C:/Program Files (x86)/Cpp_top/bin/rc"
-      - "C:/Program Files (x86)/Cpp_top/sbin/rc.com"
-      - "C:/Program Files (x86)/Cpp_top/sbin/rc.exe"
-      - "C:/Program Files (x86)/Cpp_top/sbin/rc"
-      - "C:/Program Files (x86)/Cpp_top/rc.com"
-      - "C:/Program Files (x86)/Cpp_top/rc.exe"
-      - "C:/Program Files (x86)/Cpp_top/rc"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cpp_top"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Cpp_top"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang.cmake:207 (find_program)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Clang-CXX.cmake:1 (include)"
-      - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:5 (project)"
-    mode: "program"
-    variable: "__RC_COMPILER_PATH"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "llvm-rc"
-    candidate_directories:
-      - "C:/Program Files/LLVM/bin/"
-      - "C:/Tools/bin/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/\u042e\u0440\u0438\u0439/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Program Files/bin/"
-      - "C:/Program Files/sbin/"
-      - "C:/Program Files/"
-      - "C:/Program Files (x86)/bin/"
-      - "C:/Program Files (x86)/sbin/"
-      - "C:/Program Files (x86)/"
-      - "C:/Program Files/CMake/bin/"
-      - "C:/Program Files/CMake/sbin/"
-      - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/Cpp_top/bin/"
-      - "C:/Program Files (x86)/Cpp_top/sbin/"
-      - "C:/Program Files (x86)/Cpp_top/"
-    searched_directories:
-      - "C:/Program Files/LLVM/bin/llvm-rc.com"
-    found: "C:/Program Files/LLVM/bin/llvm-rc.exe"
-    search_context:
-      ENV{PATH}:
-        - "C:\\Program Files\\LLVM\\bin"
-        - "C:/Tools/bin"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\\u042e\u0440\u0438\u0439\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Cpp_top"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/Cpp_top"
 ...

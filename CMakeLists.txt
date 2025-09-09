@@ -1,5 +1,4 @@
-set(CMAKE_CXX_COMPILER "clang++")
-
+set(CMAKE_CXX_COMPILER "cl.exe")
 
 cmake_minimum_required(VERSION 4.1.1)
 project(Cpp_top LANGUAGES CXX)
