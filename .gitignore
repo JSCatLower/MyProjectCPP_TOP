@@ -1,6 +1,9 @@
-build/
+build
 build/CMakeCache.txt
 build/.cmake/api/v1/query/client-vscode/query.json
 build/CMakeFiles/CMakeConfigureLog.yaml
 build/CMakeFiles/
 .vscode/
+build/CMakeFiles/CMakeConfigureLog.yaml
+build/CMakeFiles/TargetDirectories.txt
+build/CMakeFiles/TargetDirectories.txt
