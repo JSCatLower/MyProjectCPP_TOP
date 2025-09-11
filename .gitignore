@@ -3,3 +3,4 @@ build/CMakeCache.txt
 build/.cmake/api/v1/query/client-vscode/query.json
 build/CMakeFiles/CMakeConfigureLog.yaml
 build/CMakeFiles/
+.vscode/
